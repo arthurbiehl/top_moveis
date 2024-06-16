@@ -100,7 +100,7 @@ function buscarItensPorNome() {
     const itemsFiltrados = items.filter(item => item.nome.toLowerCase().includes(termoBusca));
 
     var containerProdutos = document.getElementById('stonks');
-    containerProdutos.innerHTML = ''; // Limpa o conteúdo anterior
+    containerProdutos.innerHTML = '';
 
     if (itemsFiltrados.length == 0) {
         containerProdutos.innerHTML = `
