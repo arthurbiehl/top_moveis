@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Document</title>
+
+    <style>
+
+        header{
+            box-shadow: 0px 0px 2px black;
+        }
+        .links a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container_header">
+            
+            <div class="foto_header">
+                <a href="../pages/index.html"><img src="../static/foto1.png" alt=""></a>
+                
+            </div>
+            <div class="links">
+                <a href="../pages/index.html"> INICIO</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div  class="produtos_master">
+        <div class="pesquisa">
+            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m15.97 17.031c-1.479 1.238-3.384 1.985-5.461 1.985-4.697 0-8.509-3.812-8.509-8.508s3.812-8.508 8.509-8.508c4.695 0 8.508 3.812 8.508 8.508 0 2.078-.747 3.984-1.985 5.461l4.749 4.75c.146.146.219.338.219.531 0 .587-.537.75-.75.75-.192 0-.384-.073-.531-.22zm-5.461-13.53c-3.868 0-7.007 3.14-7.007 7.007s3.139 7.007 7.007 7.007c3.866 0 7.007-3.14 7.007-7.007s-3.141-7.007-7.007-7.007z" fill-rule="nonzero"/></svg>
+            <input type="text" id="inputBusca" placeholder="   Qual produto deseja achar?"
+                oninput="buscarItensPorNome()">
+        </div>
+
+        <div class="container_produto">
+            <div class="categoria">
+                <h2>CATEGORIAS</h2>
+                <hr>
+                <h3>Moveis</h3>
+                <select id="categoriaSelect">
+                    <option value="todos">Todos</option>
+                    <option value="Sala">Sala</option>
+                    <option value="Quarto">Quarto</option>
+                    <option value="Cozinha">Cozinha</option>
+                    <option value="Banheiro">Banheiro</option>
+                </select>
+
+                <button onclick="filtrarPorCategoria()">FILTRAR</button>
+            </div>
+
+            
+
+            <div class="produto">
+
+                
+                <div id="stonks"></div>
+            </div>
+
+        </div>
+
+
+
+
+        <script src="../code/Produtos.js"></script>
+
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_item">
+                <img src="/static/foto2fundobranco.png.jpeg" alt="">
+            </div>
+            <div class="footer_item">
+                <h2>Links</h2>
+                <a href="#">Início</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Produtos</a>
+                <a href="#">Fale Conosco</a>
+            </div>
+            <div class="footer_item">
+                <h2>Redes Sociais</h2>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+
+            </div
+
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+
+.product {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product svg {
+    width: 50px;
+    margin: 10px;
+}
+
+.container_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cadeira {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 6px;
+    background: url('../static/product.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 2px black;
+}
+.mesa {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 6px;
+    background: url('../static/mesa_quadrados.png');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 2px black;
+}
+
+.quarto  {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 6px;
+    background: url('../static/quarto_quadrados.png');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 2px black;
+}
+
+.sala {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 6px;
+    background: url('../static/imagem2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 2px black;
+}
+
+@media (max-width: 1260px){
+    .product{
+        height: 900px;
+    }
+}
+
+
+@media (max-width: 920px){
+
+    .product {
+        height: 600px
+    }
+
+    .container_product {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+
+    .cadeira {
+        height: 100px;
+    }
+
+    .mesa {
+        height: 100px;
+    }
+
+    .sala {
+        height: 100px;
+    }
+
+    .quarto {
+        height: 100px;
+    }
+
+
+}
+
+@media (max-width: 620px){
+
+    .product {
+        height: 500px
+    }
+
+    .container_product {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
