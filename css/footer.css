@@ -7,6 +7,7 @@ footer{
     padding: 100px 0px;
     box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
     transition: 1s;
+
 }
 
 .footer_container {
@@ -25,7 +26,6 @@ footer{
     justify-self: center;
     flex-direction: column;
 }
-
 .footer_item h1 {
     font-size: 20px;
 }
@@ -47,7 +47,7 @@ footer{
     align-items: left;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 200px;
     background-size: cover;
 }
 

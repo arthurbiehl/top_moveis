@@ -11,6 +11,7 @@ header{
     justify-content: center;
     align-items: center; 
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.678);
 }
 
 .container_header {
