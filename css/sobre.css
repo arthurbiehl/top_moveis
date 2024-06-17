@@ -58,18 +58,20 @@
 @media (max-width: 920px) {
 
    .about_container {
-      width: 500px;
+      width: 600px;
 
    }
 
    .mission_container {
       width: 600px;
+      display: flex;
+      justify-content: center;
       flex-direction: column;
       align-items: center;
    }
 
    .mission_item {
-      width: 600px;
+      width: 500px;
    }
 
 }
@@ -88,6 +90,7 @@
 
    .mission_container {
       width: 100%;
+      
    }
 
    .mission_item {
