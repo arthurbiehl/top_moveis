@@ -1,32 +1,35 @@
 const items = [
     {
-        id: 1,
         nome: "Mesa",
         sobre: "colocar coisas",
         img: '../static/product.jpg',
         categoria: "Sala"
     },
     {
-        id: 2,
         nome: "Cadeira",
         sobre: "sentar",
         img: '../static/cadeira.png',
         categoria: "Sala"
     },
     {
-        id: 3,
         nome: "Sofa",
         sobre: "Utilize para sentar",
         img: '../static/imagem2.jpg',
         categoria: "Sala"
     },
     {
-        id: 4,
         nome: "Pia",
         sobre: "trabalhar",
         img: '../static/pia.png',
         categoria: "Cozinha"
     },
+    {
+        nome: "Cama",
+        sobre: "Deitar",
+        img: '../static/cama.png',
+        categoria: "Quarto"
+    },
+
 ];
 
 function inicializarLoja() {
