@@ -2,6 +2,7 @@
    width: 100%;
    display: flex;
    flex-direction: column;
+   justify-content: center;
    align-items: center;
    margin-bottom: 40px;
 }
@@ -13,6 +14,14 @@
    flex-direction: column;
    align-items: center;
    text-align: center;
+   flex-direction: column;
+}
+
+.sobre_item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 .about_container h1 {
@@ -38,6 +47,8 @@
 /* responsivo */
 
 @media (max-width: 1320px) {
+
+
 
    .about_container {
       width: 900px;
@@ -79,14 +90,25 @@
 @media (max-width: 620px) {
 
    .about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 0px 10px;
       padding-top: 100px;
    }
 
    .about_container {
       width: 100%;
-
    }
+
+   .sobre_item {
+      width: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   
 
    .mission_container {
       width: 100%;

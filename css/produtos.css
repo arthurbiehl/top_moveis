@@ -23,9 +23,8 @@
 }
 
 .container_categoria {
-    width: 20%;
+    width: 300px;
     height: 100%;
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,9 +165,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 900px;
     height: 100%;
-    
 }
 
 
@@ -178,6 +176,7 @@ hr {
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
+    width: 900px;
     
 }
 
@@ -257,7 +256,20 @@ hr {
         align-items: center;
     }
 
-    .pesquisa{
+    .container_pesquisa{
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pesquisa input{
+        width: 300px;
+    }
+    .erro{
+        width: 300px;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
     }
 }
