@@ -29,8 +29,16 @@ const items = [
         img: '../static/cama.png',
         categoria: "Quarto"
     },
+    {
+        nome: "Roupeiro",
+        sobre: "Quardar roupa",
+        img: '../static/roupeiro.jpg',
+        categoria: "Quarto"
+    }
 
 ];
+
+//mostrar os produtos
 
 function inicializarLoja() {
     var containerProdutos = document.getElementById('stonks');
@@ -59,6 +67,8 @@ function inicializarLoja() {
     }
 }
 
+// Sistema de filtragem
+
 function filtrarPorCategoria() {
     var categoriaSelecionada = document.getElementById('categoriaSelect').value;
     var containerProdutos = document.getElementById('stonks');
@@ -84,7 +94,7 @@ function filtrarPorCategoria() {
         } else {
             containerProdutos.innerHTML += `
 
-            <div class="vazio">
+            <div class="erro">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636" />
                 </svg>
@@ -98,7 +108,10 @@ function filtrarPorCategoria() {
 }
 
 // Inicializar a loja ao carregar a página
+
 document.addEventListener('DOMContentLoaded', inicializarLoja);
+
+// Sistema de Pesquisa
 
 function buscarItensPorNome() {
     const inputBusca = document.getElementById('inputBusca');
@@ -117,8 +130,6 @@ function buscarItensPorNome() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636" />
                 </svg>
             <div class="NE">
-                
-
                 <img src="../static/nao_encontrado.png" alt="">
                 <p>NAO ENCONTRADO</p>
             </div>
