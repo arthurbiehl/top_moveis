@@ -137,12 +137,13 @@ hr {
 .erro {
     width: 900px;
     height: 100%;
-    font-size: 20px;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 .erro svg {
     width: 50px;
